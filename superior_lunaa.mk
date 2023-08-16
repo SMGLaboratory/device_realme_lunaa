@@ -46,6 +46,10 @@ TARGET_BOOT_ANIMATION_RES := 1080
 PRODUCT_SYSTEM_PROPERTIES += \
      ro.spos.maintainer=SMGLaboratory
 
+# Maintainer SuperiorOS for Lunaa
+PRODUCT_PROPERTY_OVERRIDES += \
+        ro.superior.maintainer=SMGLaboratory
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="RMX3360-user 13 TP1A.220905.001 R.e9a1c9_63b61_5d8e0 release-keys" \
     TARGET_DEVICE=$(PRODUCT_SYSTEM_NAME) \
